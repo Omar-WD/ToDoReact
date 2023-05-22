@@ -1,3 +1,4 @@
+
 :root {
 	--dark: #374151;
 	--darker: #1D267D;
@@ -15,10 +16,13 @@ body {
   flex-direction: column;
   align-items: center; 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-  background: var(--light) !important ;
+  background: linear-gradient(to right, var(--darkest), var(--darkest));
+  
+  /* color: white; */
   /* color: white; */
    padding: 0 50px; 
    opacity: 0.8;
+   color: #111827 !important;
 }
 
 .app {
@@ -31,6 +35,7 @@ body {
   width: 60vw;
   border-radius: 50px;
   opacity: 0.8;
+  
 }
  
 .todo {
@@ -38,7 +43,11 @@ body {
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+  color: #111827 !important;
   
+}
+.submit-btn {
+  color: #111827 !important;
 }
 
 #action-btn, .submit-btn {

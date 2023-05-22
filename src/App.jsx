@@ -53,7 +53,7 @@ function FormTodo({ addTodo }) {
       />
       <Button
         className="submit-btn col-12 "
-        variant="primary mb-3 mt-3"
+        variant="info mb-3 mt-3"
         type="submit"
       >
         Add
@@ -72,14 +72,14 @@ function Todo({ todo, index, markTodo, removeTodo }) {
       <div>
         <Button
           id="action-btn"
-          variant="outline-success"
+          variant="outline-info"
           onClick={() => markTodo(index)}
         >
           Done
         </Button>{" "}
         <Button
           id="action-btn"
-          variant="outline-secondary"
+          variant="outline-danger"
           onClick={() => removeTodo(index)}
         >
           Delete
